@@ -1,15 +1,15 @@
 package org.example;
 
 /**
- * Class inherits class SomeOtherInterface
+ * Class inherits class SomeInterface
  */
-public class SODoer implements SomeOtherInterface {
+public class Otherlmpl implements SomeOtherInterface {
     /**
-     * Overriden method from SomeOtherInterface
+     * Override method from SomeInterface
      */
     @Override
     public void doSome() {
 
-        System.out.println("C");
+        System.out.println("B");
     }
 }
